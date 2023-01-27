@@ -1,3 +1,28 @@
+body {
+    background-image: url(./images/coffee-beans.jpeg);
+}
+
+.menu {
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
 h1, p, h2 {
     text-align: center;
+}
+
+.item p {
+    display: inline-block;
+}
+
+.flavor, .desserts {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
 }
