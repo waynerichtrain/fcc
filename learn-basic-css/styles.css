@@ -1,20 +1,49 @@
 body {
     background-image: url(./images/coffee-beans.jpeg);
+    font-family: sans-serif;
 }
 
 .menu {
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
+    max-width: 500px;
+    padding: 20px;
     width: 80%;
+}
+
+hr {
+    background-color: brown;
+    border-color: brown;
+    height: 2px;
 }
 
 h1, p, h2 {
     text-align: center;
 }
 
+h1, h2 {
+    font-family: Impact;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic;
+}
+
 .item p {
     display: inline-block;
+    font-size: 18px;
+    margin: 5px auto;
 }
 
 .flavor, .desserts {
@@ -25,4 +54,29 @@ h1, p, h2 {
 .price {
     text-align: right;
     width: 25%;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+/* FOOTER */
+footer {
+    font-size: 14px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
+
+.address {
+    margin-bottom: 0;
 }
