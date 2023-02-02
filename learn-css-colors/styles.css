@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+/*  background-color: rgb(0, 0, 0); BLACK */
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+.marker {
+    height: 25px;
+    margin: 10px auto;
+    width: 200px;
+}
+
+.one {
+/*  background-color: rgb(255, 0, 0); RED           PRIMARY */
+/*  background-color: rgb(255, 255, 0); YELLOW      SECONDARY */
+    background-color: rgb(255, 255, 0);
+}
+
+.two {
+/*  background-color: rgb(0, 127, 0); GREEN         PRIMARY */
+/*  background-color: rgb(0, 255, 255); CYAN        SECONDARY */
+    background-color: rgb(0, 255, 255);
+}
+
+.three {
+/*  background-color: rgb(0, 0, 255); BLUE          PRIMARY */
+/*  background-color: rgb(255, 0, 255); MAGENTA     SECONDARY */
+    background-color: rgb(255, 0, 255);
+}
