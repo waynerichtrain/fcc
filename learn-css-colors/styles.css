@@ -14,20 +14,26 @@ h1 {
     width: 200px;
 }
 
-.one {
-/*  background-color: rgb(255, 0, 0); RED           PRIMARY */
-/*  background-color: rgb(255, 255, 0); YELLOW      SECONDARY */
-    background-color: rgb(255, 255, 0);
+.red {
+    background: linear-gradient(90deg, rgb(255,0 ,0), rgb(0, 255, 0), rgb(0, 0, 255));
+/*  background-color: rgb(255, 0, 0); RED                         PRIMARY */
+/*  background-color: rgb(255, 255, 0); YELLOW                    SECONDARY */
+/*  background-color: rgb(255, 127, 0); ORANGE                    TERTIARY */
+/*  background-color: rgb(127, 255, 0); CHARTREUSE GREEN          TERTIARY */
 }
 
-.two {
-/*  background-color: rgb(0, 127, 0); GREEN         PRIMARY */
-/*  background-color: rgb(0, 255, 255); CYAN        SECONDARY */
-    background-color: rgb(0, 255, 255);
+.green {
+    background-color: #007F00;
+/*  background-color: rgb(0, 127, 0); GREEN                       PRIMARY */
+/*  background-color: rgb(0, 255, 255); CYAN                      SECONDARY */
+/*  background-color: rgb(0, 255, 127); SPRING GREEN              TERTIARY */
+/*  background-color: rgb(0, 127, 255); AZURE                     TERTIARY */
 }
 
-.three {
-/*  background-color: rgb(0, 0, 255); BLUE          PRIMARY */
-/*  background-color: rgb(255, 0, 255); MAGENTA     SECONDARY */
-    background-color: rgb(255, 0, 255);
+.blue {
+    background-color: hsl(240, 100%, 50%);
+/*  background-color: rgb(0, 0, 255); BLUE                        PRIMARY */
+/*  background-color: rgb(255, 0, 255); MAGENTA                   SECONDARY */
+/*  background-color: rgb(127, 0, 255); VIOLET                    TERTIARY */
+/*  background-color: rgb(255, 0, 127); ROSE                      TERTIARY */
 }
