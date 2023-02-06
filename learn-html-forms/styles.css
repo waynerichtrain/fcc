@@ -20,7 +20,17 @@ form {
     width: 60vw;
 }
 
+fieldset {
+    border: none;
+    border-bottom: 3px solid #3b3b4f;
+    padding: 2rem 0;
+}
+
 label {
     display: block;
     margin: 0.5rem 0;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
 }
